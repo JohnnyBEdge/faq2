@@ -8,6 +8,7 @@
 
 body{
     height: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .header{
@@ -24,7 +25,25 @@ body{
     background-position: 25%;
     height: 85%;
     opacity: .5;
+}
 
+.navBar ul{
+    display: flex;
+    align-items: center;
+}
+.navBar li{
+    list-style: none;
+    font-family: 'Mandali', sans-serif;
+    font-size: 1.5em;
+}
+.navBar a{
+    text-decoration: none;
+    color: white;
+}
+.navBar a:hover{
+    background-color: antiquewhite;
+    opacity: .5;
+    color: black;
 }
 
 .main{
