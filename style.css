@@ -9,47 +9,25 @@
 body{
     height: 100%;
     font-family: 'Open Sans Condensed', sans-serif;
+    background-color: black;
 }
 
-.header{
-    display: block;
-    height: 300px;
-    background-color: rgb(24, 20, 20);
-    color: white;
-}
-#warehouseImg{
+#banner{
     display: block;
     position: relative;
     background-image: url("img/warehouse.jpg");
     background-size: cover;
     background-position: 25%;
-    height: 85%;
-    opacity: .5;
+    height: 35%;
+    opacity: .7     ;
 }
 
-.navBar ul{
-    display: flex;
-    align-items: center;
-}
-.navBar li{
-    list-style: none;
-    font-family: 'Mandali', sans-serif;
-    font-size: 1.5em;
-}
-.navBar a{
-    text-decoration: none;
+.header{
+    height: 8%;
+    background-color: rgb(24, 20, 20);
     color: white;
 }
-.navBar a:hover{
-    background-color: antiquewhite;
-    opacity: .5;
-    color: black;
-}
 
-.main{
-    display: block;
-    background-color: blue;
-}
 .footer{
     display: block;
     background-color: red;
