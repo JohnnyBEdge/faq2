@@ -24,6 +24,18 @@ body{
     padding: 10px;
 }
 
+.faqs li{
+    border: solid black 1px;
+    list-style: none;
+    width: 200px;
+}
+.active{
+    background-color: green;
+}
+
+.active ul:first-child {
+    background-color: red;
+}
 
 .footer{
     display: block;
