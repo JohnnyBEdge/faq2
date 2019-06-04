@@ -33,7 +33,7 @@ body{
     background-color: green;
 }
 
-.active ul:first-child {
+.inactive{
     background-color: red;
 }
 
