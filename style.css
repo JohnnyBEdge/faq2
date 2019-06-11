@@ -62,8 +62,11 @@ body{
 button{
     padding: 20px;
 }
-
+/* #top5{
+    display: block;
+} */
   .question{
+    display: block;
     background-color: #eee;
     color: #444;
     cursor: pointer;
