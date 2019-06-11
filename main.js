@@ -1,18 +1,14 @@
+var acc = document.getElementsByClassName("category");
+var i;
 
-let searchBar = document.getElementById("searchBar");
-searchBar.addEventListener('keyup', filterQuestions);
-
-function filterQuestions(){
-  let filterValue = document.getElementById("searchBar").value.toUpperCase();
-  let categories = document.getElementById("categories");
-  let questions = categories.querySelectorAll('li.collection-item');
-
-  for(let i=0; i < questions.length;i++){
-    let p = questions[i].getElementsByTagName('p')[0];
-    if(p.innerHTML.toUpperCase().indexOf(filterValue) > -1){
-      questions[i].style.display = "";
-    } else{
-      questions[i].style.display = "none";
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
     }
-  }
+  });
 }

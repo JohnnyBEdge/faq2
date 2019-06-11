@@ -20,25 +20,67 @@ body{
     color: white;
 }
 
+.main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
 .main form{
     padding: 10px;
 }
 
-.faqs li{
-    border: solid black 1px;
-    list-style: none;
-    width: 200px;
-}
-.active{
-    background-color: green;
-}
-
-.inactive{
-    background-color: red;
-}
-
 .footer{
     display: block;
+    width: 100%;
     background-color: red;
 }
- */
+
+.faqContainer{
+    width: 75%;
+    margin: 0 auto;
+    background-color: yellow;
+}
+
+.category {
+    background-color: rgb(87, 194, 212);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+  }
+
+  .active, .category:hover {
+    background-color: rgb(169, 236, 138);
+  }
+
+button{
+    padding: 20px;
+}
+
+  .question{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+  }
+
+  .question a{
+      display: block;
+  }
+  .active, .question a:hover {
+    background-color: #ccc;
+  }
+.active{
+    background-color: rgb(169, 236, 138);
+}
