@@ -79,6 +79,9 @@ button{
   }
 
   .question a{
+      display: none;
+  }
+  #top5 a{
       display: block;
   }
   .active, .question a:hover {

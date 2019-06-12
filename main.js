@@ -22,14 +22,15 @@ function filterQs(){
   let filterValue = document.getElementById("searchBar").value.toUpperCase();
 
   let a = document.querySelectorAll('div.question > a');
-  console.log(a.length)
-//  let question = document.getElementsByClassName('question');
+  let category = document.getElementsByClassName("category");
 
- 
-    for(i=0;i<a.length;i++){
-      if(a[i].innerHTML.toUpperCase().indexOf(filterValue) > -1){
-        a[i].style.display = 'block';
-      } else {
+  for(i=0;i<a.length;i++){
+    if(a[i].innerHTML.toUpperCase().indexOf(filterValue) > -1){
+      a[i].style.display = 'block';
+      a[i].style.backgroundColor= "rgb(169, 236, 138)";
+      // this.category[j].style.backgroundColor = 'red'
+      // this.category.style.backgroundColor= "rgb(169, 236, 138)";    
+    } else {
         a[i].style.display = "none";
       }
     }
