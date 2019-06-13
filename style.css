@@ -27,8 +27,22 @@ body{
     align-items: center;
 }
 
+#formHolder{
+    background-color: #ccc;
+    width: 100%;
+    text-align: center;
+}
+
 .main form{
     padding: 10px;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+}
+.close{
+    display:none;
 }
 
 .footer{
@@ -37,7 +51,11 @@ body{
     background-color: red;
 }
 
-.faqContainer{
+
+
+
+
+/* .faqContainer{
     width: 75%;
     margin: 0 auto;
     background-color: yellow;
@@ -62,9 +80,7 @@ body{
 button{
     padding: 20px;
 }
-/* #top5{
-    display: block;
-} */
+
   .question{
     display: block;
     background-color: #eee;
@@ -84,9 +100,10 @@ button{
   #top5 a{
       display: block;
   }
-  .active, .question a:hover {
+  .open, .question a:hover {
     background-color: #ccc;
   }
-.active{
+.open{
     background-color: rgb(169, 236, 138);
-}
+    display:block;
+} */
