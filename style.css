@@ -45,6 +45,37 @@ form {
     display:none;
 }
 
+.faqContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+#top5{
+    grid-column-start: 2;
+
+}
+#what{
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+#where{
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+#why{
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+#who{
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+section{
+    border: solid black 1px;
+
+}
 .footer{
     display: block;
     width: 100%;

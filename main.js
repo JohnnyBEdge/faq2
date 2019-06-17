@@ -21,7 +21,7 @@ function filterQs(){
   for(j=0;j<sections.length;j++){
     sections[j].addEventListener('click', openClose);
     function openClose(){
-      this.classList.toggle('close');
+      this.nextElementSibling.classList.toggle('close');
     }
   }
 
